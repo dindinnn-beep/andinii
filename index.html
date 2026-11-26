@@ -161,6 +161,7 @@
         <a href="#anggota">Anggota</a>
         <a href="#informasi">Informasi</a>
     </nav>
+
     
 <!-- Pemutar musik YouTube -->
     <div id="player"></div>
@@ -171,7 +172,7 @@
     </button>
 
     <!-- YouTube API -->
-    <script src="https://youtu.be/Dlz_XHeUUis?si=NEAZhi87dTy7ooGu"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
 
     <script>
     let player;
@@ -182,12 +183,12 @@
         player = new YT.Player('player', {
             height: '0',
             width: '0',
-            videoId: 'Dlz_XHeUUis',
+            videoId: 'Dlz_XHeUUis?si=EGHmPbCTlPyGESuw',
 
             playerVars: {
                 autoplay: 1,
                 loop: 1,
-                playlist: 'Dlz_XHeUUis'
+                playlist: 'Dlz_XHeUUis?si=EGHmPbCTlPyGESuw'
             },
 
             events: {
